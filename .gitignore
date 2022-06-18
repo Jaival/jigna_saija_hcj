@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+images/mr_bhadoria_site_pics/create_thumbnails.py
+images/

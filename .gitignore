@@ -74,6 +74,7 @@ typings/
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
+.parcel-cache
 
 # Next.js build output
 .next
@@ -103,5 +104,8 @@ dist
 # TernJS port file
 .tern-port
 
-images/mr_bhadoria_site_pics/create_thumbnails.py
-images/
+# VsCode files/folders
+.vscode
+
+# JetBrains files/folders
+.idea

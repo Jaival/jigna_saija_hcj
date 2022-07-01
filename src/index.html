@@ -23,7 +23,12 @@
     <!--SMTP JS-->
     <script src="https://smtpjs.com/v3/smtp.js"></script>
 
-    <title>iCrave</title>
+    <!--Fancy Box-->
+    <!-- Fancybox (handles image and video lightbox and galleries) -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+    <title>Jigna Saija</title>
 </head>
 
 <body>
@@ -63,13 +68,16 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="index.html#whyus_section">Why Chose Us?</a>
+                                <a class="nav-link" href="index.html#whyme_section">Why Chose Me?</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="index.html#aboutus_section">About Us</a>
+                                <a class="nav-link" aria-current="page" href="index.html#aboutme_section">About Me</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="index.html#project_section">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#designprocess_section">Design Process</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="portfolio.html">Gallery</a>
@@ -86,70 +94,32 @@
 
     <!-- Hero Section -->
     <section>
-        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <!-- <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+        <div id="myCarousel" class="carousel">
+            <div class="carousel__slide">
+                <img src="../images/mr_bhadoria_site/mr_bhadoria_site_pic_2.jpg" style="width:100%;" />
+                <div class="container m-1">
+                    <div class="carousel-caption text-start">
+                        <h1 class="" style="color: black;">I-Crave</h1>
+                        <p style="color: black;">The creator</p>
+                        <!-- <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p> -->
+                    </div>
+                </div>
             </div>
-            <div class="carousel-inner mt-5">
-                <div class="carousel-item active">
-                    <div class="carousel-img">
-                        <img src="../assets/images/building1.jpg" alt="building" style="aspect-ratio: 16/9;">
-                    </div>
-                    <div class="container m-3">
-                        <div class="carousel-caption text-start">
-                            <h1 class="">I-Crave</h1>
-                            <p>The creator</p>
-                            <!-- <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p> -->
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="carousel-img">
-                        <img src="../assets/images/building2.jpg" alt="building" style="aspect-ratio: 16/9;">
-                    </div>
-                    <div class="container m-3">
-                        <div class="carousel-caption">
-                            <!-- <h1>Another example headline.</h1> -->
-                            <p>We create & help you fulfill your dreams</p>
-                            <!-- <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p> -->
-                        </div>
-                    </div>
-                </div>
-
-                <!-- <div class="carousel-item">
-                <div class="carousel-img">
-                    <img src="../assets/images/building3.jpg" alt="building">
-                </div>
-                <div class="container m-3">
-                    <div class="carousel-caption text-end">
-                        <h1>One more for good measure.</h1>
-                        <p>Some representative placeholder content for the third slide of this carousel.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-                    </div>
-                </div>
-            </div> -->
+            <div class="carousel__slide">
+                <img src="../images/mr_bhadoria_site/mr_bhadoria_site_pic_2.jpg" style="width: 100%;" />
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            <div class="carousel__slide">
+                <img src="../images/mr_bhadoria_site/mr_bhadoria_site_pic_2.jpg" style="width: 100%;" />
+            </div>
         </div>
     </section>
 
 
-    <!-- Why Us Section -->
-    <section id="whyus_section">
+    <!-- Why Me Section -->
+    <section id="whyme_section">
         <div class="container mt-5">
             <div class="text-center p-3">
-                <h2><b>Why Chose Us?</b></h2>
+                <h2><b>Why Chose Me?</b></h2>
             </div>
 
             <!-- Experience Cards-->
@@ -157,58 +127,59 @@
                 <div class="col p-4">
                     <div class="card">
                         <div class="card-body p-4">
-                            <h5 class="card-title fw-bold">Design Approach</h5>
-                            <p class="card-text">We hear the customer, we set the customers and their requirements in
-                                the heart of our design.</p>
+                            <h5 class="card-title fw-bold"">Design Approach</h5>
+                            <p class=" card-text">We hear tthe customer, we set the customers and their requirements in
+                                the heart of our design.<//p> </div> </div> </div> <div class="col p-4">
+                                <div class="card">
+                                    <div class="card-body p-4">
+                                        <h5 class="card-title fw-bold">Transparency</h5>
+                                        <p class="card-text">We provide complete transparency on all matters. Our BOGs
+                                            (bill of
+                                            quality) & bring clarity in each step/material we select and order.</p>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col p-4">
+                            <div class="card">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title fw-bold">Fast & Hassle Free</h5>
+                                    <p class="card-text">We handle the project from start to end. Clients need not
+                                        co-ordinate
+                                        when with team & contractors. We will manage all when the total responsibility
+                                        has been
+                                        given.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col p-4">
+                            <div class="card">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title fw-bold">Trust</h5>
+                                    <p class="card-text">We work to build trust. Our work & transparency speaks it all.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col p-4">
+                            <div class="card">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title fw-bold">Quality</h5>
+                                    <p class="card-text">The design approach helps us offer well-planned, beautifully
+                                        detailed
+                                        long-lasting & high-satisfactory products.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col p-4">
-                    <div class="card">
-                        <div class="card-body p-4">
-                            <h5 class="card-title fw-bold">Transparency</h5>
-                            <p class="card-text">We provide complete transparency on all matters. Our BOGs (bill of
-                                quality) & bring clarity in each step/material we select and order.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col p-4">
-                    <div class="card">
-                        <div class="card-body p-4">
-                            <h5 class="card-title fw-bold">Fast & Hassle Free</h5>
-                            <p class="card-text">We handle the project from start to end. Clients need not co-ordinate
-                                when with team & contractors. We will manage all when the total responsibility has been
-                                given.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col p-4">
-                    <div class="card">
-                        <div class="card-body p-4">
-                            <h5 class="card-title fw-bold">Trust</h5>
-                            <p class="card-text">We work to build trust. Our work & transparency speaks it all.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col p-4">
-                    <div class="card">
-                        <div class="card-body p-4">
-                            <h5 class="card-title fw-bold">Quality</h5>
-                            <p class="card-text">The design approach helps us offer well-planned, beautifully detailed
-                                long-lasting & high-satisfactory products.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
 
 
-    <!-- About Us Section -->
-    <section id="aboutus_section">
+    <!-- About Me Section -->
+    <section id="aboutme_section">
         <div class="container mt-5">
             <div class="text-center p-3">
-                <h2><b>About Us</b></h2>
+                <h2><b>About Me</b></h2>
             </div>
             <!-- <div class="col">
                 <h4 class="subtitle text-center">
@@ -218,7 +189,8 @@
             <div class="col">
                 <div class="row">
                     <div class="col">
-                        <img src="../assets/images/building3.jpg" alt="building">
+                        <img src="../images/mr_bhadoria_site/mr_bhadoria_site_pic_2.jpg" alt="building"
+                            style="width: 100%;">
                         <h4 class="subtitle text-center p-1">
                             <q>We believe in complete design</q>
                             <br>
@@ -269,7 +241,7 @@
 
 
     <!-- Design Process -->
-    <section id="designprogress_section">
+    <section id="designprocess_section">
         <div class="container">
             <div class="text-center p-3">
                 <h2><b>Design Process</b></h2>
@@ -352,67 +324,49 @@
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img src="../assets/images/building1.jpg" class="card-img-top" alt="">
+                                <img src="../images/mr_bhadoria_site/mr_bhadoria_site_pic_1.jpg" class="card-img-top">
+
                                 <div class="card-body">
-                                    <p class="card-text pb-2">This is a wider card with supporting text below as a
-                                        natural
-                                        lead-in to additional
-                                        content. This content is a little bit longer.</p>
+                                    <p class="card-text pb-2">
+                                        Mr. Bhadoria Site</p>
                                     <!-- <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button"
-                                            class="btn btn-sm btn-outline-secondary shadow-none">View</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div> -->
+                                        <div class="btn-group">
+                                            <button type="button"
+                                                class="btn btn-sm btn-outline-secondary shadow-none">View</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
 
                         <div class="col">
                             <div class="card shadow-sm card-img-top">
-                                <img src="../assets/images/building2.jpg" class="card-img-top" alt="">
+                                <img class="card-img-top" src="../images/mr_rathi_site_pic/mr_rathi_site_pic_1.jpg" />
 
                                 <div class="card-body">
-                                    <p class="card-text pb-2">This is a wider card with supporting text below as a
-                                        natural
-                                        lead-in to additional
-                                        content. This content is a little bit longer.</p>
-                                    <!-- <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button"
-                                            class="btn btn-sm btn-outline-secondary shadow-none">View</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div> -->
+                                    <p class="card-text pb-2">
+                                        Mr. Rathi Site</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col">
                             <div class="card shadow-sm card-img-top">
-                                <img src="../assets/images/building3.jpg" class="card-img-top" alt="">
+                                <img class="card-img-top"
+                                    src="../images/mr_sadhwani_site_pic/mr_sadhwani_site_pic_1.jpg" />
                                 <div class="card-body">
-                                    <p class="card-text pb-2">This is a wider card with supporting text below as a
-                                        natural
-                                        lead-in to additional
-                                        content. This content is a little bit longer.</p>
-                                    <!-- <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button"
-                                            class="btn btn-sm btn-outline-secondary shadow-none">View</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div> -->
+                                    <p class="card-text pb-2">
+                                        Mr. Sadhwani Site</p>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
             <div style="padding: 1em;">
-                <button type="submit" class="btn btn-primary shadow-none" style="width: 100%;">View
+                <button type="submit" class="btn btn-primary shadow-none" style="width: 100%;"
+                    onclick="location.href='portfolio.html';">View
                     All
                 </button>
             </div>
@@ -508,6 +462,10 @@
     <script src="../js/index.js" type="module"></script>
 
     <script>
+        const myCarousel = new Carousel(document.querySelector(".carousel"), {
+            // Options
+        });
+
         $(document).ready(function () {
 
             $('ul.navbar-nav > li > a')

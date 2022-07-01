@@ -2,12 +2,11 @@
   "name": "jigna_saija",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel ./src/index.html",
     "prebuild": "npx rimraf build",
     "build": "parcel build --public-url ./ ./src/index.html --dist-dir docs",
-    "clean": "rmdir /s /q node_modules && rmdir /s /q .parcel-cache && rmdir /s /q .cache && rmdir /s /q dist && rmdir /s /q docs",
+    "clean": "rmdir /s /q node_modules && rmdir /s /q .parcel-cache && rmdir /s /q dist",
     "reinstall": "npm run clean && npm install",
     "rebuild": "npm run clean && npm install && npm run build"
   },
